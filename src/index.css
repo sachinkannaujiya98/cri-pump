@@ -1,0 +1,9 @@
+*{
+margin: 0%;
+padding: auto;
+box-sizing: border-box;
+}
+.app{
+  height: 100vh;
+  background-image: linear-gradient(180deg,rgb(233, 233, 233), rgb(245, 245, 137));
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+
+.boxcontainer {
+    width: 100%;
+    background: #F9F9F1;
+    background: -webkit-linear-gradient(top, #F9F9F1, #F3E877);
+    background: -moz-linear-gradient(top, #F9F9F1, #F3E877);
+    background: linear-gradient(to bottom, #F9F9F1, #F3E877);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.logo img {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+
+.HeroBanner {
+    max-width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    margin-inline: auto;
+}
+
+.m2 {
+    max-width: 802px
+}
+
+.HeroBanner h4 {
+    padding-bottom: 10px;
+}
+
+.HeroBanner ul {
+    padding-bottom: 10px;
+    padding-left: 17px
+}
+
+.HeroBanner li {
+    padding-bottom: 10px;
+}
+
+.HeroBanner p>span {
+    font-weight: 700;
+}
+
+.img1 {
+    width: 355px;
+    height: 680px;
+}
+
+.img2 {
+    width: 100%;
+    height: 500px;
+    padding-bottom: 10px;
+}
+
+.middle {
+    /* margin: 0px 15px 0px 15px; */
+    margin-bottom: 20px;
+    border-bottom: 1px solid red;
+}
+
+.middle img {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    max-width: 78%;
+    margin-inline: auto;
+}
+
+.middle p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.bottomcontent {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.bottomcontent h4 {
+    padding-bottom: 15px;
+}
+
+.bottomcontent p>span {
+    color: red;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: red;
+}
+
+.parent {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #F9F9F1;
+    display: flex;
+    justify-content: space-evenly;
+}
