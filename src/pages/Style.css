@@ -21,7 +21,7 @@
 }
 
 .HeroBanner {
-    max-width: 1250px;
+    /* max-width: 1250px; */
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
@@ -29,7 +29,7 @@
 }
 
 .m2 {
-    max-width: 802px
+    /* max-width: 802px */
 }
 
 .HeroBanner h4 {
@@ -107,4 +107,14 @@ p {
     color: #F9F9F1;
     display: flex;
     justify-content: space-evenly;
+}
+
+
+@media (max-width: 780px) {
+    .HeroBanner{
+        display: block;
+    }
+    .img1{
+        width: 100%;
+    }
 }

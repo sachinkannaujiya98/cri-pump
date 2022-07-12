@@ -51,7 +51,7 @@ const Home = () => {
             </div>
             <div className='footer'>
                 <div className='parent'>
-                    <div> <i className="fa-solid fa-circle-phone"></i>Toll free 1800 200 1234</div>
+                    <div> <i className="fa fa-phone"></i>Toll free 1800 200 1234</div>
                     <div><i className="fa-brands fa-facebook"></i>Toll free 1800 200 1234</div>
                     <div><i className="fa-solid fa-globe"></i>Toll free 1800 200 1234</div>
                 </div>
