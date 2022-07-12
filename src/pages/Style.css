@@ -109,12 +109,59 @@ p {
     justify-content: space-evenly;
 }
 
+.parent div {
+    display: flex;
+    column-gap: 10px;
+    align-items: baseline;
+}
+
+.parent i {
+    font-size: 25px;
+}
+
+.parent a {
+    text-decoration: none;
+    color: white;
+}
 
 @media (max-width: 780px) {
-    .HeroBanner{
+    .HeroBanner {
         display: block;
+        padding: 0% 2% 0 2%;
     }
-    .img1{
+
+    .img1 {
         width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .img2 {
+        object-fit: cover;
+        height: auto;
+    }
+
+    .middle {
+        margin: 0% 2% 0 2%;
+    }
+
+    .bottomcontent {
+        padding: 6% 2% 0 2%;
+    }
+}
+
+@media (max-width:650px) {
+    .parent {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+    }
+
+    .parent div {
+        padding-bottom: 10px;
+        align-items: baseline;
+        padding-left: 15px;
     }
 }
